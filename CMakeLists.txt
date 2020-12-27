@@ -24,7 +24,7 @@ set(FETCHCONTENT_BASE_DIR ${fc_base})
 include(FetchContent)
 FetchContent_Declare(
         rxcppextras
-        GIT_REPOSITORY  https://github.com/Psigio/RxCppExtras
+        GIT_REPOSITORY  https://github.com/Psigio/RxCppExtras.git
         GIT_TAG         HEAD
 )
 if(${CMAKE_VERSION} VERSION_LESS 3.14)	
@@ -39,7 +39,7 @@ endif()
 
 FetchContent_Declare(
         rxcpp
-        GIT_REPOSITORY  https://github.com/ReactiveX/RxCpp
+        GIT_REPOSITORY  https://github.com/ReactiveX/RxCpp.git
         GIT_TAG         HEAD
 )
 
